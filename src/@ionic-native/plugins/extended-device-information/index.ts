@@ -25,7 +25,7 @@ import { CordovaProperty, IonicNativePlugin, Plugin } from '@ionic-native/core';
 @Plugin({
   pluginName: 'ExtendedDeviceInformation',
   plugin: 'cordova-plugin-extended-device-information',
-  pluginRef: 'extended-device-information',
+  pluginRef: 'cordova.plugins.extended-device-information',
   repo:
     'https://github.com/danielehrhardt/cordova-plugin-extended-device-information',
   platforms: ['Android']
